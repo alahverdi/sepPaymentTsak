@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sep_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.seppaymentsample.ui.home.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_addBankCardFragment"
+            app:destination="@id/addBankCardFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/sepFestivalFragment"
+        android:name="com.example.seppaymentsample.ui.sep_festival.SepFestivalFragment"
+        android:label="SepFestivalFragment" />
+    <fragment
+        android:id="@+id/sepServicesFragment"
+        android:name="com.example.seppaymentsample.ui.sep_services.SepServicesFragment"
+        android:label="SepServicesFragment" />
+    <fragment
+        android:id="@+id/userTransactionFragment"
+        android:name="com.example.seppaymentsample.ui.user_transaction.UserTransactionFragment"
+        android:label="UserTransactionFragment" />
+    <fragment
+        android:id="@+id/addBankCardFragment"
+        android:name="com.example.seppaymentsample.ui.home.AddBankCardFragment"
+        android:label="AddBankCardFragment" />
+</navigation>

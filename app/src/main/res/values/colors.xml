@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <!-- logo colors -->
+    <color name="logo_yellow">#ffcc00</color>
+    <color name="logo_red">#ee304a</color>
+    <color name="logo_blue">#026992</color>
+    <color name="logo_blueDark">#024B68</color>
+    <color name="logo_gray">#58595b</color>
+    <color name="logo_bg">#f6f6f6</color>
+    <color name="main_bg">#f8f7fd</color>
+    <color name="bg">#DDE8FF</color>
+    <color name="red_delete">#f44332</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_95">#1a1a1a</color>
+    <color name="grey_100_">#0d0d0d</color>
+
+    <!-- green button : -->
+    <color name="btn_green">#4CAF50</color>
+    <color name="btn_green_dark">#388E3C</color>
+
+    <color name="yellow_50">#FFFAE6</color>
+    <color name="yellow_100">#FBE692</color>
+    <color name="yellow_200">#FFE26F</color>
+    <color name="yellow_300">#FFE682</color>
+    <color name="yellow_400">#FAD74E</color>
+    <color name="yellow_500">#ffcc00</color>
+    <color name="yellow_600">#E8B900</color>
+    <color name="yellow_700">#D5A900</color>
+    <color name="yellow_800">#B69100</color>
+    <color name="yellow_900">#876B00</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black_effective">#2a2a2a</color>
+
+    <!-- normal text color: -->
+    <color name="normal_text_color">#727272</color>
+    <color name="stroke_editText_normal">#9A9A9A</color>
+    <color name="light_gray">#BCBCBC</color>
+    <color name="searchBox_light_gray">#ECECEC</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <!--SnackBar Colors-->
+    <color name="snackBar_pink">#aa00ff</color>
+    <color name="snackBar_blue">#2962ff</color>
+    <color name="snackBar_green">#00b8d4</color>
+    <color name="snackBar_orange">#ff6d00</color>
+    <color name="snackBar_purple">#6200ea</color>
+
+    <color name="banner_internet">#06213c</color>
+    <color name="banner_services">#60534a</color>
+    <color name="banner_media">#417ab1</color>
+    <color name="banner_bill">#7d5e32</color>
+
+    <color name="blue_50">#E3F2FD</color>
+    <color name="blue_100">#BBDEFB</color>
+    <color name="blue_200">#90CAF9</color>
+    <color name="blue_300">#64B5F6</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1E88E5</color>
+    <color name="blue_700">#1976D2</color>
+    <color name="blue_800">#1565C0</color>
+    <color name="blue_900">#0D47A1</color>
+
+    <color name="blue_A100">#82B1FF</color>
+    <color name="blue_A200">#448AFF</color>
+    <color name="blue_A400">#2979FF</color>
+    <color name="blue_A700">#2962FF</color>
+
+    <color name="blue_link">#0645AD</color>
+
+    <color name="light_green_50">#F1F8E9</color>
+    <color name="light_green_100">#DCEDC8</color>
+    <color name="light_green_200">#C5E1A5</color>
+    <color name="light_green_300">#AED581</color>
+    <color name="light_green_400">#9CCC65</color>
+    <color name="light_green_500">#8BC34A</color>
+    <color name="light_green_600">#7CB342</color>
+    <color name="light_green_700">#689F38</color>
+    <color name="light_green_800">#558B2F</color>
+    <color name="light_green_900">#33691E</color>
+    <color name="light_green_A100">#CCFF90</color>
+    <color name="light_green_A200">#B2FF59</color>
+    <color name="light_green_A400">#76FF03</color>
+    <color name="light_green_A700">#64DD17</color>
+
+    <color name="banner_green_100">#9cd9d4</color>
+    <color name="banner_green_300">#9cd9d4</color>
+    <color name="banner_green_500">#7ecfc6</color>
+
+
+    <color name="banner_purple_100">#c0a2ea</color>
+    <color name="banner_purple_300">#b997eb</color>
+    <color name="banner_purple_500">#b08bea</color>
+
+
+    <color name="service_item_1">#1fb27e</color>
+    <color name="service_item_2">#f19459</color>
+    <color name="service_item_3">#f19457</color>
+    <color name="service_item_4">#22a7f2</color>
+
+
+    <color name="news_feed_item_1">#e2e7e3</color>
+    <color name="news_feed_item_2">#f7e2b7</color>
+    <color name="news_feed_item_3">#B7F7D1</color>
+    <color name="news_feed_item_4">#F7B7EC</color>
+
+
+    <color name="navy_blue_300">#4E587C</color>
+    <color name="navy_blue_500">#2e344a</color>
+    <color name="navy_blue_700">#242839</color>
+
+    <color name="navy_blue_accent_500">#ce498b</color>
+    <color name="btn_add_bank_card">#edf0f7</color>
+
+
+</resources>

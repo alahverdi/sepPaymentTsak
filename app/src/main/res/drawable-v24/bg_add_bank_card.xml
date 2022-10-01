@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/navy_blue_accent_500" />
+        </shape>
+    </item>
+    <item android:bottom="300dp">
+        <rotate
+            android:fromDegrees="0"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape>
+                <gradient
+                    android:startColor="@color/navy_blue_500"
+                    android:centerColor="@color/navy_blue_300"
+                    android:endColor="@color/navy_blue_700"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="150dp">
+        <rotate
+            android:fromDegrees="25"
+            android:pivotX="100%"
+            android:pivotY="45%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_accent_500"
+                    android:centerColor="@color/navy_blue_accent_500"
+                    android:endColor="@color/navy_blue_700"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="60%"
+            android:pivotY="45%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_300"
+                    android:centerColor="@color/navy_blue_500"
+                    android:endColor="@color/navy_blue_700"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-25"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_700"
+                    android:centerColor="@color/navy_blue_500"
+                    android:endColor="@color/blue_400"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-25"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_300"
+                    android:centerColor="@color/navy_blue_500"
+                    android:endColor="@color/navy_blue_700"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="200dp">
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_accent_500"
+                    android:centerColor="@color/navy_blue_accent_500"
+                    android:endColor="@color/navy_blue_500"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="40dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="145%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/navy_blue_accent_500"
+                    android:centerColor="@color/navy_blue_accent_500"
+                    android:endColor="@color/navy_blue_accent_500"
+                    />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

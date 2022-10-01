@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btn_load_more"
+    android:layout_width="160dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:backgroundTint="@color/btn_add_bank_card"
+    android:drawableEnd="@drawable/ic_baseline_add_24"
+    android:fontFamily="@font/sep_payment_font_bold"
+    android:gravity="center"
+    android:text="کارت جدید"
+    android:textColor="@color/navy_blue_500"
+    android:textSize="16sp" />

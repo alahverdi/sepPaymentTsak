@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/banner_purple_100" />
+        </shape>
+    </item>
+    <item android:bottom="300dp">
+        <rotate
+            android:fromDegrees="0"
+            android:pivotX="0%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape>
+                <gradient
+                    android:startColor="@color/banner_purple_500"
+                    android:centerColor="@color/logo_bg"
+                    android:endColor="@color/main_bg"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="150dp">
+        <rotate
+            android:fromDegrees="25"
+            android:pivotX="100%"
+            android:pivotY="45%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/yellow_500"
+                    android:centerColor="@color/yellow_600"
+                    android:endColor="@color/yellow_600"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="60%"
+            android:pivotY="45%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/banner_purple_100"
+                    android:centerColor="@color/banner_purple_300"
+                    android:endColor="@color/banner_purple_500"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-25"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/banner_purple_500"
+                    android:centerColor="@color/banner_purple_300"
+                    android:endColor="@color/blue_400"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="100dp">
+        <rotate
+            android:fromDegrees="-25"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/banner_purple_300"
+                    android:centerColor="@color/banner_purple_300"
+                    android:endColor="@color/banner_purple_500"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="200dp">
+        <rotate
+            android:fromDegrees="-35"
+            android:pivotX="90%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/yellow_500"
+                    android:centerColor="@color/yellow_600"
+                    android:endColor="@color/yellow_600"
+                    />
+            </shape>
+        </rotate>
+    </item>
+    <item android:top="40dp">
+        <rotate
+            android:fromDegrees="-45"
+            android:pivotX="145%"
+            android:pivotY="0%"
+            android:toDegrees="45">
+            <shape android:shape="rectangle">
+                <corners android:radius="32dp" />
+                <gradient
+                    android:startColor="@color/yellow_500"
+                    android:centerColor="@color/yellow_500"
+                    android:endColor="@color/yellow_500"
+                    />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sepFestivalFragment"
+        android:icon="@drawable/selector_icon_media"
+        android:title="جشنواره" />
+    <item
+        android:id="@+id/userTransactionFragment"
+        android:icon="@drawable/selector_icon_bill"
+        android:title="تراکنش" />
+    <item
+        android:id="@+id/sepServicesFragment"
+        android:icon="@drawable/selector_icon_product"
+        android:title="سرویس ها" />
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/selector_icon_home"
+        android:title="خانه" />
+
+</menu>
